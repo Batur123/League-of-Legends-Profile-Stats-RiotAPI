@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.SummonerNameText = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,6 +41,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.SumRegionText = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.SummonerIconPicBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,7 +77,8 @@
             // 
             // SummonerIconPicBox
             // 
-            this.SummonerIconPicBox.Location = new System.Drawing.Point(47, 69);
+            this.SummonerIconPicBox.Image = ((System.Drawing.Image)(resources.GetObject("SummonerIconPicBox.Image")));
+            this.SummonerIconPicBox.Location = new System.Drawing.Point(47, 121);
             this.SummonerIconPicBox.Name = "SummonerIconPicBox";
             this.SummonerIconPicBox.Size = new System.Drawing.Size(161, 163);
             this.SummonerIconPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -85,7 +88,7 @@
             // SumNameText
             // 
             this.SumNameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.SumNameText.Location = new System.Drawing.Point(214, 288);
+            this.SumNameText.Location = new System.Drawing.Point(214, 340);
             this.SumNameText.Multiline = true;
             this.SumNameText.Name = "SumNameText";
             this.SumNameText.Size = new System.Drawing.Size(161, 29);
@@ -94,7 +97,7 @@
             // SumLevelText
             // 
             this.SumLevelText.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.SumLevelText.Location = new System.Drawing.Point(214, 323);
+            this.SumLevelText.Location = new System.Drawing.Point(214, 375);
             this.SumLevelText.Multiline = true;
             this.SumLevelText.Name = "SumLevelText";
             this.SumLevelText.Size = new System.Drawing.Size(161, 29);
@@ -103,7 +106,7 @@
             // SumIDText
             // 
             this.SumIDText.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.SumIDText.Location = new System.Drawing.Point(214, 253);
+            this.SumIDText.Location = new System.Drawing.Point(214, 305);
             this.SumIDText.Multiline = true;
             this.SumIDText.Name = "SumIDText";
             this.SumIDText.Size = new System.Drawing.Size(644, 29);
@@ -113,7 +116,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(46, 288);
+            this.label2.Location = new System.Drawing.Point(46, 340);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(165, 24);
             this.label2.TabIndex = 7;
@@ -123,7 +126,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(52, 323);
+            this.label3.Location = new System.Drawing.Point(52, 375);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(159, 24);
             this.label3.TabIndex = 8;
@@ -133,7 +136,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(80, 253);
+            this.label4.Location = new System.Drawing.Point(80, 305);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(131, 24);
             this.label4.TabIndex = 9;
@@ -143,7 +146,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(33, 358);
+            this.label5.Location = new System.Drawing.Point(33, 410);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(175, 24);
             this.label5.TabIndex = 11;
@@ -152,18 +155,28 @@
             // SumRegionText
             // 
             this.SumRegionText.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.SumRegionText.Location = new System.Drawing.Point(214, 358);
+            this.SumRegionText.Location = new System.Drawing.Point(214, 410);
             this.SumRegionText.Multiline = true;
             this.SumRegionText.Name = "SumRegionText";
             this.SumRegionText.Size = new System.Drawing.Size(161, 29);
             this.SumRegionText.TabIndex = 10;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(47, 69);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(164, 33);
+            this.comboBox1.TabIndex = 12;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.IndianRed;
-            this.ClientSize = new System.Drawing.Size(902, 780);
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.ClientSize = new System.Drawing.Size(890, 547);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.SumRegionText);
             this.Controls.Add(this.label4);
@@ -199,6 +212,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox SumRegionText;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 

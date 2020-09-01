@@ -26,18 +26,19 @@ namespace League_of_Legends_Profile_Overview
 
         }
 
-        public class Summoner
-        {
-            public int id { get; set; }
-            public string key { get; set; }
-            public string name { get; set; }
-            public string title { get; set; }
-        }
-        
+        //public class Summoner
+        //{
+        //    public int id { get; set; }
+        //    public string key { get; set; }
+        //    public string name { get; set; }
+        //    public string title { get; set; }
+        //}
+
+        public string Icon;
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(SummonerNameText.Text))
+            if (string.IsNullOrEmpty(SummonerNameText.Text))
             {
                 MessageBox.Show("Please do not leave it blank.");
             }
@@ -45,18 +46,31 @@ namespace League_of_Legends_Profile_Overview
             {
                 try
                 {
-                    var api = RiotApi.GetDevelopmentInstance("RGAPI-61910994-57c8-49b3-8fd4-44b5d6604573", 5, 5);
+                    var api = RiotApi.GetDevelopmentInstance("YOUR API KEY", 5, 5);
                     var summoner = api.Summoner.GetSummonerByNameAsync(RiotSharp.Misc.Region.Tr, SummonerNameText.Text).Result;
                     SumIDText.Text = summoner.Id.ToString();
                     SumLevelText.Text = summoner.Level.ToString();
                     SumNameText.Text = summoner.Name.ToString();
                     SumRegionText.Text = summoner.Region.ToString();
-                    MessageBox.Show(summoner.ProfileIconId.ToString());
+                    SummonerIconPicBox.Image = Image.FromFile(@"C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\Images\profileicon\" + summoner.ProfileIconId.ToString()+".png");
+                   // Icon = "@Images/profileicon/"+summoner.ProfileIconId.ToString() + ".png";
+                    //SummonerIconPicBox.ImageLocation = Icon;
+
+                    //string filename = dirname + "pic" + i.ToString() + ".png";
+                    //using (Bitmap bm = new Bitmap(filename))
+                    //{
+                    //    pics[i].Image = (Bitmap)bm.Clone();
+                    //}
 
                 }
                 catch (RiotSharpException ex)
                 {
                     MessageBox.Show("Error. \n" + ex.Message);
+                    
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show("Summoner cannot be found.");
                 }
             }
            

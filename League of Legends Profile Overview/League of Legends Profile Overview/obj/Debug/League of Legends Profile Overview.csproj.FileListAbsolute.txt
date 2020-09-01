@@ -1,9 +1,6 @@
 C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\League of Legends Profile Overview.exe.config
 C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\League of Legends Profile Overview.exe
 C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\League of Legends Profile Overview.pdb
-C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\Newtonsoft.Json.dll
-C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\RiotSharp.dll
-C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\System.Diagnostics.DiagnosticSource.dll
 C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\Newtonsoft.Json.xml
 C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\RiotSharp.pdb
 C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\RiotSharp.xml
