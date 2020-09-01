@@ -1,0 +1,17 @@
+C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\League of Legends Profile Overview.exe.config
+C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\League of Legends Profile Overview.exe
+C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\League of Legends Profile Overview.pdb
+C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\Newtonsoft.Json.dll
+C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\RiotSharp.dll
+C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\Newtonsoft.Json.xml
+C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\RiotSharp.pdb
+C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\RiotSharp.xml
+C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\obj\Debug\League of Legends Profile Overview.csprojAssemblyReference.cache
+C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\obj\Debug\League_of_Legends_Profile_Overview.Form1.resources
+C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\obj\Debug\League_of_Legends_Profile_Overview.Properties.Resources.resources
+C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\obj\Debug\League of Legends Profile Overview.csproj.GenerateResource.cache
+C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\obj\Debug\League of Legends Profile Overview.csproj.CopyComplete
+C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\obj\Debug\League of Legends Profile Overview.exe
+C:\Users\badgo\Desktop\League of Legends Profile Overview\League of Legends Profile Overview\League of Legends Profile Overview\obj\Debug\League of Legends Profile Overview.pdb
